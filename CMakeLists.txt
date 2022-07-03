@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_compile_options(
     -ggdb3
-    -Wall -Wextra
+    -Wall
     # -fsanitize=address
 )
 
