@@ -10,5 +10,5 @@ public:
 private:
 	_Window _window;
 	_Resources _resources;
-	_StateMachine _state_manager;
+	_StateMachine _state_machine;
 };
