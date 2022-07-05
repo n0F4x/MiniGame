@@ -3,18 +3,18 @@
 
 void _Engine::run() {
 	// game loop
-	while (!_window.ShouldClose() && !_state_machine.should_close()) {
+	while (!_window.ShouldClose() && !_stateMachine.should_close()) {
 		// update state of state machine
-		_state_machine.update();
+		_stateMachine.update();
 
 		// update current game state
-		_state_machine->update();
+		_stateMachine->update();
 
 
 		BeginDrawing();
 	 
 			// draw current state
-			_state_machine->draw();
+			_stateMachine->draw();
 
 		EndDrawing();
 	}

@@ -1,7 +1,7 @@
 #include "../include/_StateMachine.hpp"
 
 
-bool _StateMachine::should_close() {
+bool _StateMachine::should_close() const {
     return false;
 }
 
@@ -10,5 +10,5 @@ void _StateMachine::update() {
 }
 
 _State* _StateMachine::operator->() {
-    return _current_state;
+    return _currentState;
 }
