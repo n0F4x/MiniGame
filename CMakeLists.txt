@@ -27,6 +27,7 @@ set(SOURCE_FILES
     ./src/_Window.cpp
     ./src/_Resources.cpp
     ./src/_State.cpp
+    ./src/_StateMachine.cpp
 )
 
 

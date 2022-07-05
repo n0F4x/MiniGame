@@ -3,7 +3,7 @@
 
 void _Engine::run() {
 	//// game loop
-	//while (!_window.ShouldClose() && ApplicationState != ApplicationStates::Quitting) {
+	//while (!_window.ShouldClose() && !_state_machine.should_close()) {
 	//	// call the update that goes with our current game state
 	//	switch (ApplicationState) {
 	//	case ApplicationStates::Loading:
