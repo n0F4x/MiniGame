@@ -25,7 +25,7 @@ set(SOURCE_FILES
     ./src/main.cpp
     ./src/_Engine.cpp
     ./src/_Window.cpp
-    ./src/_Resources.hpp
+    ./src/_Resources.cpp
     ./src/_State.cpp
 )
 
